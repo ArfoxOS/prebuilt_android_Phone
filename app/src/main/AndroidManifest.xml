@@ -90,7 +90,7 @@
             android:configChanges="orientation"
             android:exported="false"
             android:label="@string/conference"
-            android:parentActivityName="org.fossify.phone.activities.CallActivity" />
+            android:parentActivityName="org.fossify.arfoxphone.activities.CallActivity" />
 
         <activity
             android:name=".activities.SettingsActivity"
@@ -106,7 +106,7 @@
         </activity>
 
         <activity
-            android:name="org.fossify.phone.activities.CallActivity"
+            android:name="org.fossify.arfoxphone.activities.CallActivity"
             android:excludeFromRecents="true"
             android:exported="false"
             android:label="@string/ongoing_call"
@@ -189,8 +189,8 @@
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="org.fossify.phone.action.ACCEPT_CALL" />
-                <action android:name="org.fossify.phone.action.DECLINE_CALL" />
+                <action android:name="org.fossify.arfoxphone.action.ACCEPT_CALL" />
+                <action android:name="org.fossify.arfoxphone.action.DECLINE_CALL" />
             </intent-filter>
         </receiver>
 

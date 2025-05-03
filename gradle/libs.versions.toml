@@ -22,7 +22,7 @@ app-build-minimumSDK = "26"
 app-build-javaVersion = "VERSION_17"
 app-build-kotlinJVMTarget = "17"
 #versioning
-app-version-appId = "org.fossify.phone"
+app-version-appId = "org.fossify.arfoxphone"
 app-version-versionCode = "7"
 app-version-versionName = "1.4.0"
 [libraries]
